@@ -16,3 +16,5 @@ app.use(router);
 app.listen(port, () =>
   console.log(`Server connected to http://localhost:${port}`)
 );
+
+export default app;
